@@ -23,7 +23,7 @@ app.get('/api', (req, res, next) => {
     res.send('API Status: Running and is awesome!')
 });
 
-var ApiKey = process.env.ApiKey
+var ApiKey = process.env.ApiKey;
 //console.log(process.env);
 
 app.post('./api/email', (req, res, next) => {

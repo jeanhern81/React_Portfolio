@@ -6,11 +6,14 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Navbar';
 import './App.css';
+import Image from 'react-bootstrap/Image';
 
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import PortfolioPage from './pages/PortfolioPage';
 import ContactPage from './pages/ContactPage';
+
+
 
 
 class App extends React.Component {
@@ -49,7 +52,7 @@ class App extends React.Component {
         <Container className='p-0' fluid={true}>
 
           <Navbar className='border-bottom' bg='transparent' expand='lg'>
-            <Navbar.Brand>Jeanette Hernandez</Navbar.Brand>
+            <Navbar.Brand><Image src={require('../src/assets/images/fontImage/jeanettehernandez.png' )} style={{width: 300 }} alt='Jeanette Hernandez'  /></Navbar.Brand>
 
             <Navbar.Toggle className='border-0' aria-controls='navbar-toggle' />
             <Navbar.Collapse id='navbar-toggle'>
