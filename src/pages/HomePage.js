@@ -7,11 +7,9 @@ import Image from 'react-bootstrap/Image';
 
 
 
-
-
 function HomePage(props) {
     return (
-        <div>
+        <div className='HomePage'>
         <Hero title={props.title} />
 
 
@@ -36,4 +34,6 @@ function HomePage(props) {
         
     );
 }
+
+
 export default HomePage;

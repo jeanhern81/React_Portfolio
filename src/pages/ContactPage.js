@@ -69,7 +69,7 @@ class ContactPage extends React.Component {
 
     render() {
         return(
-            <div>
+            <div className='contactPage'>
                 <Hero title={this.props.title} />
 
                 <Content>
@@ -101,7 +101,12 @@ class ContactPage extends React.Component {
                         {this.state.emailSent === false && <p className="d-inline err-msg">Email Not Sent</p>}
                     </Form>
                 </Content>
+
+
+
+
             </div>
+            
         );
     }
 

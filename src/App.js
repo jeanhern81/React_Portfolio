@@ -13,6 +13,7 @@ import HomePage from './pages/HomePage';
 import PortfolioPage from './pages/PortfolioPage';
 import ContactPage from './pages/ContactPage';
 
+import aboutme from '../src/assets/images/fontImage/aboutme.png';
 
 
 
@@ -30,13 +31,14 @@ class App extends React.Component {
 
       home: {
         title: 'About Me',
+        imgSrc: aboutme,
         
       },
 
       portfolio: {
         title: 'Portfolio',
-        subTitle: 'Projects',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        subTitle: 'Skills',
+        text: '',
       },
 
       
@@ -64,7 +66,7 @@ class App extends React.Component {
             </Navbar.Collapse>
             
           </Navbar>
-          <Route path='/' exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text}  />} />
+          <Route path='/' exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} imgSrc={this.state.home.imgSrc} />} />
           <Route path='/portfolio' render={() => <PortfolioPage title={this.state.portfolio.title}  subTitle={this.state.portfolio.subTitle} text={this.state.portfolio.text}/>} />
           <Route path='/contact' render={() => <ContactPage title={this.state.contact.title} />} />
           <Footer />
