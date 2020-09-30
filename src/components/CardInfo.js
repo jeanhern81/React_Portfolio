@@ -13,10 +13,10 @@ function CardInfo(props) {
                 <p className='g-card-subTitle'>{props.subTitle}</p>
                 <p className='g-card-text'>{props.text}</p>
             
-                <p><Button className="d-inline-block" variant="outline-success"> <a href={props.link} target='_blank' rel='noopener noreferrer'>Deployed Site</a>
+                <p><Button className="d-inline-block" variant='light'> <a href={props.link} target='_blank' rel='noopener noreferrer'>Deployed Site</a>
             </Button> </p>
                         
-                <p><Button className="d-inline-block" variant='outline-success' ><a href={props.link2} target='_blank' rel='noopener noreferrer'>Visit Repo</a>
+                <p><Button className="d-inline-block" variant='light' ><a href={props.link2} target='_blank' rel='noopener noreferrer'>Visit Repo</a>
             </Button></p>
                 
                 </animated.div>
