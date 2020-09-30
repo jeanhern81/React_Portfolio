@@ -3,6 +3,7 @@ import Hero from '../components/Hero';
 import Carousel from '../components/Carousel';
 import Skills from '../components/Skills';
 
+
 function PortfolioPage(props) {
     return (   
 
@@ -10,6 +11,8 @@ function PortfolioPage(props) {
             <Hero title={props.title} subTitle={props.subTitle} text={props.text} />
 
             <Skills />
+
+
             <Carousel />
 
         </p>

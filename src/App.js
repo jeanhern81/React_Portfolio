@@ -13,7 +13,7 @@ import HomePage from './pages/HomePage';
 import PortfolioPage from './pages/PortfolioPage';
 import ContactPage from './pages/ContactPage';
 
-import aboutme from '../src/assets/images/fontImage/aboutme.png';
+
 
 
 
@@ -31,19 +31,19 @@ class App extends React.Component {
 
       home: {
         title: 'About Me',
-        imgSrc: aboutme,
-        
+                
       },
 
       portfolio: {
         title: 'Portfolio',
-        subTitle: 'Skills',
-        text: '',
+        subTitle: '',
+        text: 'Here\'s a quick look at my recent projects. ',
       },
 
       
       contact: {
         title: 'Contact',
+        text: 'I am currently available for work and/or projects. Drop me a line if you have something in mind.',
       },
     }
   }
@@ -54,7 +54,7 @@ class App extends React.Component {
         <Container className='p-0' fluid={true}>
 
           <Navbar className='border-bottom' bg='transparent' expand='lg'>
-            <Navbar.Brand><Image src={require('../src/assets/images/fontImage/jeanettehernandez.png' )} style={{width: 300 }} alt='Jeanette Hernandez'  /></Navbar.Brand>
+            <Navbar.Brand><Link className='nav-link' to='/' ><Image src={require('../src/assets/images/fontImage/jeanettehernandez.png' )} style={{width: 300 }} alt='Jeanette Hernandez' /></Link></Navbar.Brand>
 
             <Navbar.Toggle className='border-0' aria-controls='navbar-toggle' />
             <Navbar.Collapse id='navbar-toggle'>
@@ -66,9 +66,9 @@ class App extends React.Component {
             </Navbar.Collapse>
             
           </Navbar>
-          <Route path='/' exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} imgSrc={this.state.home.imgSrc} />} />
+          <Route path='/' exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text}  />} />
           <Route path='/portfolio' render={() => <PortfolioPage title={this.state.portfolio.title}  subTitle={this.state.portfolio.subTitle} text={this.state.portfolio.text}/>} />
-          <Route path='/contact' render={() => <ContactPage title={this.state.contact.title} />} />
+          <Route path='/contact' render={() => <ContactPage title={this.state.contact.title} subTitle={this.state.contact.subTitle} text={this.state.contact.text} />} />
           <Footer />
         
         </Container>
