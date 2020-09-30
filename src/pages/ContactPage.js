@@ -31,6 +31,7 @@ class ContactPage extends React.Component {
         })
     }
 
+    
 
     handleSubmit = (event) => {
         event.preventDefault();
@@ -65,6 +66,7 @@ class ContactPage extends React.Component {
             })
 
     }
+
 
 
     render() {
