@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/React_Portfolio/static/css/main.2b73998a.chunk.css",
-    "main.js": "/React_Portfolio/static/js/main.b3c3d08e.chunk.js",
-    "main.js.map": "/React_Portfolio/static/js/main.b3c3d08e.chunk.js.map",
+    "main.js": "/React_Portfolio/static/js/main.97c17686.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.97c17686.chunk.js.map",
     "runtime-main.js": "/React_Portfolio/static/js/runtime-main.3d088758.js",
     "runtime-main.js.map": "/React_Portfolio/static/js/runtime-main.3d088758.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/React_Portfolio/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.cec5eab5.chunk.js": "/React_Portfolio/static/js/2.cec5eab5.chunk.js",
-    "static/js/2.cec5eab5.chunk.js.map": "/React_Portfolio/static/js/2.cec5eab5.chunk.js.map",
+    "static/js/2.17bf6701.chunk.js": "/React_Portfolio/static/js/2.17bf6701.chunk.js",
+    "static/js/2.17bf6701.chunk.js.map": "/React_Portfolio/static/js/2.17bf6701.chunk.js.map",
     "index.html": "/React_Portfolio/index.html",
-    "precache-manifest.cbddf3afce1bc0917f8aee013f910149.js": "/React_Portfolio/precache-manifest.cbddf3afce1bc0917f8aee013f910149.js",
+    "precache-manifest.bc10eb6fe0adf0518bdd7ffc743511dd.js": "/React_Portfolio/precache-manifest.bc10eb6fe0adf0518bdd7ffc743511dd.js",
     "service-worker.js": "/React_Portfolio/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/React_Portfolio/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.2b73998a.chunk.css.map": "/React_Portfolio/static/css/main.2b73998a.chunk.css.map",
-    "static/js/2.cec5eab5.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.cec5eab5.chunk.js.LICENSE.txt",
+    "static/js/2.17bf6701.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.17bf6701.chunk.js.LICENSE.txt",
     "static/media/alexandria.jpg": "/React_Portfolio/static/media/alexandria.21c13f7f.jpg",
     "static/media/burger.jpg": "/React_Portfolio/static/media/burger.e96778e8.jpg",
     "static/media/codeQuiz.jpg": "/React_Portfolio/static/media/codeQuiz.f7f75d44.jpg",
@@ -27,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.3d088758.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.cec5eab5.chunk.js",
+    "static/js/2.17bf6701.chunk.js",
     "static/css/main.2b73998a.chunk.css",
-    "static/js/main.b3c3d08e.chunk.js"
+    "static/js/main.97c17686.chunk.js"
   ]
 }
