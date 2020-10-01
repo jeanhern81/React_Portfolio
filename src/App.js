@@ -66,7 +66,7 @@ class App extends React.Component {
             </Navbar.Collapse>            
           </Navbar>
 
-          <Route path='/' exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text}  />} />
+          <Route path='/' render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text}  />} />
           <Route path='/portfolio' render={() => <PortfolioPage title={this.state.portfolio.title}  subTitle={this.state.portfolio.subTitle} text={this.state.portfolio.text}/>} />
           <Route path='/contact' render={() => <ContactPage title={this.state.contact.title} subTitle={this.state.contact.subTitle} text={this.state.contact.text} />} />
 
