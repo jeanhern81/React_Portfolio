@@ -26,7 +26,7 @@ class App extends React.Component {
       headerLinks: [
         { title: 'Home', path: '/' },
         { title: 'Portfolio', path: '/portfolio' },
-        { title: 'Contact', path: '/contact' }
+        { title: 'Contact', path: '/contact' },
       ],
 
       home: {
@@ -63,12 +63,13 @@ class App extends React.Component {
                 <Link className='nav-link' to='/portfolio'>Portfolio</Link>
                 <Link className='nav-link' to='/contact'>Contact</Link>
               </Nav>
-            </Navbar.Collapse>
-            
+            </Navbar.Collapse>            
           </Navbar>
-          <Route path='/' render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text}  />} />
-          <Route path='/portfolio'  render={() => <PortfolioPage title={this.state.portfolio.title}  subTitle={this.state.portfolio.subTitle} text={this.state.portfolio.text}/>} />
-          <Route path='/contact'  render={() => <ContactPage title={this.state.contact.title} subTitle={this.state.contact.subTitle} text={this.state.contact.text} />} />
+
+          <Route path='/' exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text}  />} />
+          <Route path='/portfolio' render={() => <PortfolioPage title={this.state.portfolio.title}  subTitle={this.state.portfolio.subTitle} text={this.state.portfolio.text}/>} />
+          <Route path='/contact' render={() => <ContactPage title={this.state.contact.title} subTitle={this.state.contact.subTitle} text={this.state.contact.text} />} />
+          
           <Footer />
         
         </Container>

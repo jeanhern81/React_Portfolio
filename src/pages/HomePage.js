@@ -1,13 +1,15 @@
 import React from 'react';
 import Hero from '../components/Hero';
 import Content from '../components/Content';
+import Resume from '../components/Resume';
+
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 
 
 
-import Resume from '../components/Resume';
+
 
 
 
@@ -16,9 +18,7 @@ import Resume from '../components/Resume';
 
 function HomePage(props) {
     return (
-        <div className='HomePage'>
-        <Hero title={props.title} />
-
+        <div className='HomePage'>        <Hero title={props.title} />
 
 
 
