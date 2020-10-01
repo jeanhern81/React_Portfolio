@@ -1,11 +1,16 @@
 import React from 'react';
 
+
+
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 
 import Hero from '../components/Hero';
 import Content from '../components/Content';
-import Axios from 'axios';
+import CardContact from '../components/CardContact';
+
+
+import * as emailjs from "emailjs-com";
 
 class ContactPage extends React.Component {
 
@@ -19,8 +24,7 @@ class ContactPage extends React.Component {
             emailSent: null,
         }
     }
-
-
+    
     handleChange = (event) => {
         const target = event.target;
         const value = target.type === 'checkbox' ? target.checked : target.value;
@@ -36,36 +40,36 @@ class ContactPage extends React.Component {
     handleSubmit = (event) => {
         event.preventDefault();
 
+        const templateParams = {
+            name: this.state.name + " (" + this.state.email + ")",
+            email: this.state.email,
+            message: this.state.message
+          };
+
         console.log(event.target);
 
         this.setState({
-            disabled: true
+            disabled: false,
+            emailSent: true
         });
-
-        Axios.post('http://localhost:3030/api/email', this.state)
-            .then(res => {
-                if(res.data.success) {
-                    this.setState({
-                        disabled: false,
-                        emailSent: true
-                    });
-                } else {
-                    this.setState({
-                        disabled: false,
-                        emailSent: false
-                    });
+        
+            emailjs
+              .send('service_tr4rxbj', 'template_8euxnen', templateParams, 'user_Vi88FTO4YYnOZOmcdGAdy')
+              .then(
+                function(response) {
+                  console.log("EMAIL SUCCESSFULLY SENT", response.status, response.text);
+                },
+                function(error) {
+                  console.log("EMAIL DID NOT SEND!", error);
                 }
-            })
-            .catch(err => {
-                console.log(err);
-
-                this.setState({
-                    disabled: false,
-                    emailSent: false
+              );
+    
+            this.setState({
+                name: "",
+                email: "",
+                message: ""
                 });
-            })
-
-    }
+            }
 
 
 
@@ -74,6 +78,10 @@ class ContactPage extends React.Component {
             <div className='contactPage'>
                 <Hero title={this.props.title} text={this.props.text}/>
 
+
+    
+
+    
                 <Content>
                     <Form onSubmit={this.handleSubmit}>
                         <Form.Group>
@@ -105,12 +113,18 @@ class ContactPage extends React.Component {
                 </Content>
 
 
+                <div>
+            
+                </div>
 
 
             </div>
             
+
+        
         );
-    }
+    
+}
 
 }
 
