@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/React_Portfolio/static/css/main.e49d71c9.chunk.css",
-    "main.js": "/React_Portfolio/static/js/main.3e1ff2a0.chunk.js",
-    "main.js.map": "/React_Portfolio/static/js/main.3e1ff2a0.chunk.js.map",
-    "runtime-main.js": "/React_Portfolio/static/js/runtime-main.6c723fb5.js",
-    "runtime-main.js.map": "/React_Portfolio/static/js/runtime-main.6c723fb5.js.map",
+    "main.js": "/React_Portfolio/static/js/main.0c4cd342.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.0c4cd342.chunk.js.map",
+    "runtime-main.js": "/React_Portfolio/static/js/runtime-main.61a43087.js",
+    "runtime-main.js.map": "/React_Portfolio/static/js/runtime-main.61a43087.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/React_Portfolio/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.63ffa27b.chunk.js": "/React_Portfolio/static/js/2.63ffa27b.chunk.js",
-    "static/js/2.63ffa27b.chunk.js.map": "/React_Portfolio/static/js/2.63ffa27b.chunk.js.map",
+    "static/js/2.96cacf04.chunk.js": "/React_Portfolio/static/js/2.96cacf04.chunk.js",
+    "static/js/2.96cacf04.chunk.js.map": "/React_Portfolio/static/js/2.96cacf04.chunk.js.map",
     "index.html": "/React_Portfolio/index.html",
-    "precache-manifest.ea9626d3c181755703d37680e13584eb.js": "/React_Portfolio/precache-manifest.ea9626d3c181755703d37680e13584eb.js",
+    "precache-manifest.dc128b029b85e34c1e0f3dc52cd3ffd4.js": "/React_Portfolio/precache-manifest.dc128b029b85e34c1e0f3dc52cd3ffd4.js",
     "service-worker.js": "/React_Portfolio/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/React_Portfolio/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.e49d71c9.chunk.css.map": "/React_Portfolio/static/css/main.e49d71c9.chunk.css.map",
-    "static/js/2.63ffa27b.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.63ffa27b.chunk.js.LICENSE.txt",
+    "static/js/2.96cacf04.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.96cacf04.chunk.js.LICENSE.txt",
     "static/media/alexandria.jpg": "/React_Portfolio/static/media/alexandria.21c13f7f.jpg",
     "static/media/burger.jpg": "/React_Portfolio/static/media/burger.e96778e8.jpg",
     "static/media/codeQuiz.jpg": "/React_Portfolio/static/media/codeQuiz.f7f75d44.jpg",
@@ -25,10 +25,10 @@
     "static/media/weatherDash.jpg": "/React_Portfolio/static/media/weatherDash.60a0c1b9.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6c723fb5.js",
+    "static/js/runtime-main.61a43087.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.63ffa27b.chunk.js",
+    "static/js/2.96cacf04.chunk.js",
     "static/css/main.e49d71c9.chunk.css",
-    "static/js/main.3e1ff2a0.chunk.js"
+    "static/js/main.0c4cd342.chunk.js"
   ]
 }
