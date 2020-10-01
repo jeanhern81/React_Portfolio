@@ -7,7 +7,6 @@ import Button from 'react-bootstrap/Button';
 
 import Hero from '../components/Hero';
 import Content from '../components/Content';
-import CardContact from '../components/CardContact';
 
 
 import * as emailjs from "emailjs-com";
