@@ -18,7 +18,8 @@ import Image from 'react-bootstrap/Image';
 
 function HomePage(props) {
     return (
-        <div className='HomePage'>        <Hero title={props.title} />
+        <div className='HomePage'>        
+            <Hero title={props.title} />
 
 
 
