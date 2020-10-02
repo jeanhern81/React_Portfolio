@@ -1,5 +1,5 @@
-## Responsive Portfolio
----
+# Responsive Portfolio
+
 ## Description:
 
 This updataed React portfolio features a working navbar that is also mobile responsive, along with a footer with LinkIn and GitHug icons that will take you to those sites. The portfolio page features some of my latest projects, click on the image to see the links to the deployed site and repo. 
