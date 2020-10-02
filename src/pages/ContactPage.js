@@ -101,7 +101,7 @@ class ContactPage extends React.Component {
                         </Form.Group>
 
 
-                        <Button className="d-inline-block" variant="primary" type="submit" disabled={this.state.disabled}>
+                        <Button className="d-inline-block" variant="success" type="submit" disabled={this.state.disabled}>
                             Send
                         </Button>
 

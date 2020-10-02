@@ -41,6 +41,7 @@ function HomePage(props) {
     
         <Row className="d-flex justify-content-center py-5">
             <Resume />
+            
         </Row>
         
 
