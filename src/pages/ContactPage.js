@@ -43,7 +43,7 @@ class ContactPage extends React.Component {
             name: this.state.name + " (" + this.state.email + ")",
             email: this.state.email,
             message: this.state.message
-          };
+            };
 
         console.log(event.target);
 
@@ -53,15 +53,15 @@ class ContactPage extends React.Component {
         });
         
             emailjs
-              .send('service_tr4rxbj', 'template_8euxnen', templateParams, 'user_Vi88FTO4YYnOZOmcdGAdy')
-              .then(
+                .send('service_tr4rxbj', 'template_8euxnen', templateParams, 'user_Vi88FTO4YYnOZOmcdGAdy')
+                .then(
                 function(response) {
-                  console.log("EMAIL SUCCESSFULLY SENT", response.status, response.text);
+                    console.log("EMAIL SUCCESSFULLY SENT", response.status, response.text);
                 },
                 function(error) {
-                  console.log("EMAIL DID NOT SEND!", error);
+                    console.log("EMAIL DID NOT SEND!", error);
                 }
-              );
+                );
     
             this.setState({
                 name: "",
