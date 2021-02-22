@@ -24,7 +24,7 @@ function HomePage(props) {
 
 
         <Content>
-        <Col xs={6} md={4} ><Image src={require('../assets/images/jeanette.png' ) } style={{width: 350, float:'left' }} id='me' alt='Jeanette Hernandez'  /></Col> 
+        <Col xs={6} md={4} ><Image src={require('../assets/images/Me.png' ) } style={{width: 350, float:'left' }} id='me' alt='Jeanette Hernandez'  /></Col> 
         
 
         <div className='homePageTxt'>
