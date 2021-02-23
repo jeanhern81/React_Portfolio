@@ -10,10 +10,10 @@ With this portfolio update I created a working contact form and improved the ove
 
 ---
 
-![Screenshot](./src/assets/images/homepage.JPG)
-![Screenshot](./src/assets/images/portfolio.JPG)
-![Screenshot](./src/assets/images/portfolio2.JPG)
-![Screenshot](./src/assets/images/contact.JPG)
+![Screenshot](./src/assets/images/HomePage01.JPG)
+![Screenshot](./src/assets/images/portfolio01.JPG)
+![Screenshot](./src/assets/images/portfolio02.JPG)
+![Screenshot](./src/assets/images/contact01.JPG)
 
 ---
 
