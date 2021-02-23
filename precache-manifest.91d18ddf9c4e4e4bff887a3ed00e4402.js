@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "53c311c3b3d18723a76c755276a2baf6",
+    "revision": "548237e3d0ae5f4b3332432fffe13b0f",
     "url": "/React_Portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React_Portfolio/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "c064e3a18fc5bab2ac2b",
+    "revision": "246206a55283716693f7",
     "url": "/React_Portfolio/static/css/main.e71e1979.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React_Portfolio/static/js/2.c5aa82a6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c064e3a18fc5bab2ac2b",
-    "url": "/React_Portfolio/static/js/main.f1bc91ac.chunk.js"
+    "revision": "246206a55283716693f7",
+    "url": "/React_Portfolio/static/js/main.c075e5e5.chunk.js"
   },
   {
     "revision": "32135041e8b8f4902bc9",
@@ -48,12 +48,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React_Portfolio/static/media/codeQuiz.f7f75d44.jpg"
   },
   {
-    "revision": "2236291643b22024e8a877c5a0eed0c5",
-    "url": "/React_Portfolio/static/media/jeanettehernandez.22362916.png"
+    "revision": "60d22dad1cf6676beefe9bf14cc9456b",
+    "url": "/React_Portfolio/static/media/jGarciaIns.60d22dad.JPG"
   },
   {
-    "revision": "c7d01f63f0205535e5d4c01f19870b45",
-    "url": "/React_Portfolio/static/media/passwordGen.c7d01f63.jpg"
+    "revision": "2236291643b22024e8a877c5a0eed0c5",
+    "url": "/React_Portfolio/static/media/jeanettehernandez.22362916.png"
   },
   {
     "revision": "aa2a2e3ac15ebe985db90b733f3feff7",

@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/React_Portfolio/static/css/main.e71e1979.chunk.css",
-    "main.js": "/React_Portfolio/static/js/main.f1bc91ac.chunk.js",
-    "main.js.map": "/React_Portfolio/static/js/main.f1bc91ac.chunk.js.map",
+    "main.js": "/React_Portfolio/static/js/main.c075e5e5.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.c075e5e5.chunk.js.map",
     "runtime-main.js": "/React_Portfolio/static/js/runtime-main.3d088758.js",
     "runtime-main.js.map": "/React_Portfolio/static/js/runtime-main.3d088758.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/React_Portfolio/static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.c5aa82a6.chunk.js": "/React_Portfolio/static/js/2.c5aa82a6.chunk.js",
     "static/js/2.c5aa82a6.chunk.js.map": "/React_Portfolio/static/js/2.c5aa82a6.chunk.js.map",
     "index.html": "/React_Portfolio/index.html",
-    "precache-manifest.8712a9f4fed3d4f37dfd79f765a06fa2.js": "/React_Portfolio/precache-manifest.8712a9f4fed3d4f37dfd79f765a06fa2.js",
+    "precache-manifest.91d18ddf9c4e4e4bff887a3ed00e4402.js": "/React_Portfolio/precache-manifest.91d18ddf9c4e4e4bff887a3ed00e4402.js",
     "service-worker.js": "/React_Portfolio/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/React_Portfolio/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.e71e1979.chunk.css.map": "/React_Portfolio/static/css/main.e71e1979.chunk.css.map",
@@ -19,8 +19,8 @@
     "static/media/alexandria.jpg": "/React_Portfolio/static/media/alexandria.21c13f7f.jpg",
     "static/media/burger.jpg": "/React_Portfolio/static/media/burger.e96778e8.jpg",
     "static/media/codeQuiz.jpg": "/React_Portfolio/static/media/codeQuiz.f7f75d44.jpg",
+    "static/media/jGarciaIns.JPG": "/React_Portfolio/static/media/jGarciaIns.60d22dad.JPG",
     "static/media/jeanettehernandez.png": "/React_Portfolio/static/media/jeanettehernandez.22362916.png",
-    "static/media/passwordGen.jpg": "/React_Portfolio/static/media/passwordGen.c7d01f63.jpg",
     "static/media/scheduler.jpg": "/React_Portfolio/static/media/scheduler.aa2a2e3a.jpg",
     "static/media/weatherDash.jpg": "/React_Portfolio/static/media/weatherDash.60a0c1b9.jpg"
   },
@@ -29,6 +29,6 @@
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.c5aa82a6.chunk.js",
     "static/css/main.e71e1979.chunk.css",
-    "static/js/main.f1bc91ac.chunk.js"
+    "static/js/main.c075e5e5.chunk.js"
   ]
 }
