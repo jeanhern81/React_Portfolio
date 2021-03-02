@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2e4e987a5dbad7e1421b7e297029d025",
+    "revision": "2cf9496dda6577fde1d8df504eaa9c0e",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "c015af35d875fedd5b26",
+    "revision": "b53b83689428db42438a",
     "url": "/static/css/main.6448d2cf.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.f2b08c8d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c015af35d875fedd5b26",
-    "url": "/static/js/main.210ae449.chunk.js"
+    "revision": "b53b83689428db42438a",
+    "url": "/static/js/main.e9a45e88.chunk.js"
   },
   {
     "revision": "a36784af4abdca6cc163",
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/alexandria.21c13f7f.jpg"
   },
   {
-    "revision": "e96778e87874cb55def462e1083e6b0c",
-    "url": "/static/media/burger.e96778e8.jpg"
+    "revision": "6e8916e8a126aaf1ce753c89817a6ec0",
+    "url": "/static/media/cityPR.6e8916e8.jpg"
   },
   {
     "revision": "f7f75d44dc3691a0f87c33b976a2c046",
