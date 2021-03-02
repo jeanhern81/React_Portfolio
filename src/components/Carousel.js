@@ -3,8 +3,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Card from '../components/Card'
 
-import jGarciaIns from '../assets/images/projects/jGarciaIns.JPG'
-import burger from '../assets/images/projects/burger.jpg';
+import jGarciaIns from '../assets/images/projects/jGarciaIns.JPG';
+import cityPR from "../assets/images/projects/cityPR.jpg";
 import scheduler from '../assets/images/projects/scheduler.jpg';
 import weatherDash from '../assets/images/projects/weatherDash.jpg';
 import codeQuiz from '../assets/images/projects/codeQuiz.jpg';
@@ -31,12 +31,12 @@ class Carousel extends React.Component {
                 },
                 {
                     id: 1,
-                    title: 'Eat-Da-Burger',
-                    subTitle: 'Enjoy a delicious burger',
-                    text: 'Technologies Used: HTML, CSS, Bootstrap, JavaScript, jQuery, Node Js, Express JS, MySql, Heroku',
-                    imgSrc: burger,
-                    link: 'https://dry-depths-29556.herokuapp.com/',
-                    link2: 'https://github.com/jeanhern81/Eat-Da-Burger',
+                    title: 'City PR, Inc',
+                    subTitle: 'Publicity firm based out of Souther California',
+                    text: 'Technologies Used: HTML, CSS, Wordpress',
+                    imgSrc: cityPR,
+                    link: 'http://cityprinc.com/',
+                    link2: '',
                     selected: false
                 },
                 {
