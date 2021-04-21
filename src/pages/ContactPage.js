@@ -1,6 +1,6 @@
 import React from 'react';
 
-
+import { RiSendPlaneFill } from 'react-icons/ri';
 
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
@@ -102,7 +102,7 @@ class ContactPage extends React.Component {
 
 
                         <Button className="d-inline-block" variant="dark" type="submit" disabled={this.state.disabled}>
-                            Send
+                            Send <RiSendPlaneFill />
                         </Button>
 
 

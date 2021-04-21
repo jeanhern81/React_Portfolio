@@ -5,7 +5,7 @@ import Card from '../components/Card'
 
 import jGarciaIns from '../assets/images/projects/jGarciaIns.JPG';
 import cityPR from "../assets/images/projects/cityPR.jpg";
-import scheduler from '../assets/images/projects/scheduler.jpg';
+import KulcherTek from '../assets/images/projects/KulcherTek.jpg';
 import weatherDash from '../assets/images/projects/weatherDash.jpg';
 import codeQuiz from '../assets/images/projects/codeQuiz.jpg';
 import alexandria from '../assets/images/projects/alexandria.jpg';
@@ -41,11 +41,11 @@ class Carousel extends React.Component {
                 },
                 {
                     id: 2, 
-                    title: 'Work Day Scheduler',
-                    subTitle: 'Hourly task schedule',
-                    imgSrc: scheduler,
-                    link: 'https://jeanhern81.github.io/work_day_scheduler/',
-                    link2: 'https://github.com/jeanhern81/work_day_scheduler',
+                    title: 'Kulcher Tek Media',
+                    subTitle: 'Kulcher Tek Podcast',
+                    imgSrc: KulcherTek,
+                    link: 'https://www.kulchertek.com/',
+                    link2: 'https://github.com/jeanhern81/kulcher-tek.git',
                     selected: false
                 },
                 {

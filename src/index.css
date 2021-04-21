@@ -16,7 +16,7 @@ code {
 }
 
 a.nav-link {
-  color: black;
+  color: white;
   
 }
 
@@ -128,6 +128,9 @@ label.form-label {
 }
 
 .github,
-.linkin {
-  color: rgb(0, 0, 0);
+.linkin,
+.copyright,
+h10 {
+  color:white;
 }
+
