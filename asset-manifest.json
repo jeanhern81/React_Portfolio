@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.6448d2cf.chunk.css",
-    "main.js": "/static/js/main.e9a45e88.chunk.js",
-    "main.js.map": "/static/js/main.e9a45e88.chunk.js.map",
+    "main.css": "/static/css/main.d3015930.chunk.css",
+    "main.js": "/static/js/main.28cb6777.chunk.js",
+    "main.js.map": "/static/js/main.28cb6777.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ea1ad2b7.js",
     "runtime-main.js.map": "/static/js/runtime-main.ea1ad2b7.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.f2b08c8d.chunk.js": "/static/js/2.f2b08c8d.chunk.js",
-    "static/js/2.f2b08c8d.chunk.js.map": "/static/js/2.f2b08c8d.chunk.js.map",
+    "static/js/2.b4fcb9f1.chunk.js": "/static/js/2.b4fcb9f1.chunk.js",
+    "static/js/2.b4fcb9f1.chunk.js.map": "/static/js/2.b4fcb9f1.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c46f9c1b749005da8f3b1faff0ebc57e.js": "/precache-manifest.c46f9c1b749005da8f3b1faff0ebc57e.js",
+    "precache-manifest.69a9e63476c3d23ed1b8d71977a0ea6f.js": "/precache-manifest.69a9e63476c3d23ed1b8d71977a0ea6f.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.6448d2cf.chunk.css.map": "/static/css/main.6448d2cf.chunk.css.map",
-    "static/js/2.f2b08c8d.chunk.js.LICENSE.txt": "/static/js/2.f2b08c8d.chunk.js.LICENSE.txt",
+    "static/css/main.d3015930.chunk.css.map": "/static/css/main.d3015930.chunk.css.map",
+    "static/js/2.b4fcb9f1.chunk.js.LICENSE.txt": "/static/js/2.b4fcb9f1.chunk.js.LICENSE.txt",
+    "static/media/KulcherTek.jpg": "/static/media/KulcherTek.3dd079cb.jpg",
     "static/media/Me.png": "/static/media/Me.4ddc8828.png",
     "static/media/index.css": "/static/media/Mountains01.f676dee8.jpg",
     "static/media/alexandria.jpg": "/static/media/alexandria.21c13f7f.jpg",
@@ -21,14 +22,13 @@
     "static/media/codeQuiz.jpg": "/static/media/codeQuiz.f7f75d44.jpg",
     "static/media/jGarciaIns.JPG": "/static/media/jGarciaIns.60d22dad.JPG",
     "static/media/jeanettehernandez.png": "/static/media/jeanettehernandez.22362916.png",
-    "static/media/scheduler.jpg": "/static/media/scheduler.aa2a2e3a.jpg",
     "static/media/weatherDash.jpg": "/static/media/weatherDash.60a0c1b9.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ea1ad2b7.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.f2b08c8d.chunk.js",
-    "static/css/main.6448d2cf.chunk.css",
-    "static/js/main.e9a45e88.chunk.js"
+    "static/js/2.b4fcb9f1.chunk.js",
+    "static/css/main.d3015930.chunk.css",
+    "static/js/main.28cb6777.chunk.js"
   ]
 }
